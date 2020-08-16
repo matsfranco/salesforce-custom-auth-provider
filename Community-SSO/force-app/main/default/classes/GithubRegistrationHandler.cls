@@ -90,6 +90,7 @@ global with sharing class GithubRegistrationHandler extends Auth.AuthProviderPlu
         
         List<String> nameInfo = userInfo.name.split(' ');
         
+        /* Mandatory*/
         Map<String,String> attributeMap = new Map<String,String>{'noauth' => 'NOUTHS'};
         
         Auth.UserData userdata = new Auth.UserData(userInfo.login, nameInfo.get(0), nameInfo.get(1), 
