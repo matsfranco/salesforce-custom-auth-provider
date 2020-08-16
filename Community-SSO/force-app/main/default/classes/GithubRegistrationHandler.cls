@@ -1,6 +1,6 @@
 global with sharing class GithubRegistrationHandler extends Auth.AuthProviderPluginClass {
 
-    private String customMetadataTypeApiName = 'GithubProvider__mdt';
+    private String customMetadataTypeApiName = 'GitHubProvider__mdt';
     public  String redirectUrl; 
     private String key;
     private String secret;
