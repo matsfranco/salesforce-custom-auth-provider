@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomMetadata xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <label>GitHub3</label>
+    <protected>false</protected>
+    <values>
+        <field>AuthURL__c</field>
+        <value xsi:type="xsd:string">https://github.com/login/oauth/authorize</value>
+    </values>
+    <values>
+        <field>CallbackURL__c</field>
+        <value xsi:type="xsd:string">https://login.salesforce.com/services/authcallback/00D3h000002soHbEAI/GitHub3</value>
+    </values>
+    <values>
+        <field>ConsumerKey__c</field>
+        <value xsi:type="xsd:string">GitHub App Client Id</value>
+    </values>
+    <values>
+        <field>ConsumerSecret__c</field>
+        <value xsi:type="xsd:string">GitHub App Client Secret</value>
+    </values>
+    <values>
+        <field>Scope__c</field>
+        <value xsi:type="xsd:string">repo user gist</value>
+    </values>
+    <values>
+        <field>TokenURL__c</field>
+        <value xsi:type="xsd:string">https://github.com/login/oauth/access_token</value>
+    </values>
+    <values>
+        <field>UserInfoURL__c</field>
+        <value xsi:type="xsd:string">https://api.github.com/user</value>
+    </values>
+</CustomMetadata>

@@ -87,7 +87,7 @@ global with sharing class GithubRegistrationHandler extends Auth.AuthProviderPlu
         String responseBody = res.getBody();
         
         GithubUserWrapper userInfo = (GithubUserWrapper)System.JSON.deserialize(responseBody, GithubUserWrapper.class);
-        
+        System.debug(userInfo);
         List<String> nameInfo = userInfo.name.split(' ');
         
         /* Mandatory*/
