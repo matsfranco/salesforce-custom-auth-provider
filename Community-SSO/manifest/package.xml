@@ -2,7 +2,21 @@
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
         <members>GithubRegistrationHandler</members>
+        <members>GoogleEmailHandler</members>
         <name>ApexClass</name>
+    </types>
+    <types>
+        <members>GitHub3</members>
+        <name>AuthProvider</name>
+    </types>
+    <types>
+        <members>GitHubAPI</members>
+        <members>GitHubUserAPI</members>
+        <name>RemoteSiteSetting</name>
+    </types>
+    <types>
+        <members>GitHub3</members>
+        <name>CustomMetadata</name>
     </types>
     <version>49.0</version>
 </Package>
